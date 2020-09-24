@@ -11,6 +11,7 @@ FilePicker(支持图片，视频，文件，语音，摄像头点击拍照长按
         
 接收：
  //选择文件
+ ```
         if(requestCode== FilePickerConstant.REQUEST_CODE_PICK_FILE){
             if (resultCode == RESULT_OK) {
                 data?.let {
@@ -47,3 +48,5 @@ FilePicker(支持图片，视频，文件，语音，摄像头点击拍照长按
             return
         }
     }
+    ```
+   
