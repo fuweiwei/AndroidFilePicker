@@ -2,10 +2,12 @@
 FilePicker(支持图片，视频，文件，语音，摄像头点击拍照长按摄像)
 
 使用：
+```
  val intentMedia = Intent(this, AudioPickActivity::class.java)
         intentMedia.putExtra(FilePickerActivity.IS_NEED_FOLDER_LIST, true)
         intentMedia.putExtra(FilePickerConstant.MAX_NUMBER, 9)
         startActivityForResult(intentMedia, FilePickerConstant.REQUEST_CODE_PICK_AUDIO)
+ ```
         
 接收：
  //选择文件
