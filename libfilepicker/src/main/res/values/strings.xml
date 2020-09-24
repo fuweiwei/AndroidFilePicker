@@ -1,0 +1,23 @@
+<resources>
+    <string name="vw_confirm">Done</string>
+    <string name="vw_no_video_play_app">No App exists for playing video!</string>
+    <string name="vw_record_audio">Record Audio</string>
+    <string name="vw_rationale_storage">Need Reading Storage Permission for Picking Files</string>
+    <string name="vw_up_to_max">Already up to max</string>
+    <string name="vw_no_photo_app">No photo App in this phone!</string>
+    <string name="vw_no_audio_play_app">No App exists for playing audio!</string>
+    <string name="vw_no_video_app">No video App in this phone!</string>
+    <string name="vw_no_audio_app">No audio App in this phone!</string>
+    <string name="vw_all">All</string>
+
+    <string name="file_not_open">文件无法打开</string>
+    <string name="permission_denied">权限被拒绝，无法正常使用此功能</string>
+    <string name="permission_denied_mic">请在应用管理中允许麦克风权限</string>
+    <string name="permission_denied_storage">请在应用管理中允许存储权限</string>
+    <string name="permission_denied_camera">请在应用管理中允许相机权限</string>
+    <string name="permission_denied_location">请在应用管理中允许位置信息权限</string>
+
+    <string name="permission_denied_mic_storage">请在应用管理中允许麦克风和存储权限</string>
+    <string name="permission_denied_camera_storage">请在应用管理中允许相机和存储权限</string>
+    <string name="permission_denied_camera_mic">请在应用管理中允许相机和麦克风权限</string>
+</resources>

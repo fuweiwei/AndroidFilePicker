@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/internet_size_44px"
+   >
+
+        <TextView
+            android:id="@+id/tv_content"
+            android:layout_width="wrap_content"
+            android:textColor="@color/white"
+            android:layout_centerVertical="true"
+            android:layout_marginLeft="@dimen/internet_size_18px"
+            android:textSize="15sp"
+            android:textStyle="bold"
+            android:layout_height="wrap_content"/>
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="@dimen/internet_size_80px"
+            android:layout_alignParentRight="true"
+            android:text="发送"
+            android:textSize="16sp"
+            android:textColor="@color/white"
+            android:gravity="center"
+            android:layout_marginRight="@dimen/internet_size_20px"
+            android:layout_height="@dimen/internet_size_44px"/>
+
+
+</RelativeLayout>

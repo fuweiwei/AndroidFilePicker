@@ -1,0 +1,3 @@
+include ':libfilepicker'
+include ':app'
+rootProject.name = "AndroidFilePicker"
